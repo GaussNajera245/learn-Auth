@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "server": "nodemon index.js",
+    "dev": "cd front-end && next dev",
+    "build": "cd front-end && next build",
+    "start": "cd front-end && next start"
   },
   "keywords": [],
   "author": "",
@@ -16,7 +19,10 @@
     "express": "^4.17.1",
     "express-graphql": "^0.9.0",
     "graphql": "^15.0.0",
-    "mongoose": "^5.9.10"
+    "mongoose": "^5.9.10",
+    "next": "9.3.6",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.3"
