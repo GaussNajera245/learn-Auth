@@ -6,7 +6,6 @@ const mongoose = require('mongoose');
 const schema = require("./graphql/schema");
 const resolvers = require("./graphql/resolver");
 
-
 app.use(bodyParser.json());
 
 app.use('/graphql', graphqlHttp({
